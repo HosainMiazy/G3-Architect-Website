@@ -11,6 +11,9 @@ body{
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .text-light-gray {
@@ -279,7 +282,9 @@ main {
     header {
         padding: 20px;
     }
-
+    body{
+        margin:0px;
+    }
     nav,
     .teams-container,
     .features,
@@ -287,4 +292,19 @@ main {
     .sponsors-img-container {
         flex-direction: column;
     }
+    .teams-container{
+        /* padding: 10px; */
+        /* width: 100%; */
+    }
+    
+    .feature-img img {
+        
+        margin-left: 0;
+    }
+    
+    .facts-card-container {
+        gap: 20px;
+        /* margin-left: 30px; */
+    }
+
 }
